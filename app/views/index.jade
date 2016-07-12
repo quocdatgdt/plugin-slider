@@ -1,0 +1,13 @@
+extends layouts/layout
+
+block vars
+  -title = 'Homepage'
+  -bodyClass = 'home'
+  -menuIndex = 0
+
+ block container
+  main
+    p(data-plugin) Demo template
+    div(class="demo", id="demo2")
+      h1(class="h1-title") Hello
+

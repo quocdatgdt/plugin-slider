@@ -1,0 +1,61 @@
+.row
+  footer
+    .contact-us.col-md-4
+      p(id="footer-title")
+        | contact us
+      p
+        strong Address:
+        |  72/4 Truong Quoc Dung Street, Ward 10, Phu Nhuan District, Ho Chi Minh City, Vietnam
+      p
+        strong Tel:
+        |  +84 8 3997 5901
+      p
+        strong Fax:
+        |  +84 8 3997 5900
+      p
+        strong Email:
+        a(href='mailto:someone@example.com?Subject=Hello%20again', target='_top', title='mailto')  contact-us@sutrixmedia.com
+
+    .quick-links.col-md-4
+      p(id="quicklinks-title")
+        | quick links
+      ul
+          li
+            +link('Contact Us','#', 'Contact Us')
+          li
+            +link('Latest News','#', 'Latest News')
+          li
+            +link('FAQs','#', 'FAQs')
+          li
+            +link('Terms &amp Conditions','#', 'Terms & Conditions')
+          li
+            +link('Privacy Policy','#', 'Privacy Policy')
+
+    .newsletter.col-md-4
+      p(id="newsletter-title")
+        | newsletter
+      input.email-info(type='text', placeholder='Enter Email...')
+      input.signup(type='submit', value='Sign Up')
+
+    .row
+      .copyright
+        .copyright-menu.col-md-6
+          ul
+            li
+              +link('Homepage','#', 'Homepage')
+            li
+              +link('About us','#', 'About us')
+            li
+              +link('Services','#', 'Services')
+            li
+              +link('News & Events','#', 'News &amp Events')
+            li
+              +link('Gallery','#', 'Gallery')
+            li
+              +link('Contact Us','#', 'Contact Us')
+            li
+              +link('FAQs','#', 'FAQs')
+        .copyright-text.col-md-5.col-md-offset-1.text-right
+           | Copyright &copy; 2014 Template Demo All Rights Reserved.
+
+

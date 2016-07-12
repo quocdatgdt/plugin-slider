@@ -1,0 +1,119 @@
+//- .slider-container.row
+//-   .slider
+//-     .slide.img-responsive(data-plugin-slider, data-autoplay="false")
+//-       +img('This is a picture of Banner', '../images/banner.png')
+//-       p.slide-caption At Naturetour we are constantly adding to and improving our portfolio of wildlife holidays to provide you with an even greater choice of wildlife viewing experiences we are constantly adding to and improving.
+//-     .slide.img-responsive
+//-       +img('This is a picture of Banner', '../images/banner.png')
+//-       p.slide-caption At Naturetour we are constantly adding to and improving our portfolio of wildlife holidays to provide you with an even greater choice of wildlife viewing experiences we are constantly adding to and improving.
+//-     .slide.img-responsive
+//-       +img('This is a picture of Banner', '../images/banner.png')
+//-       p.slide-caption At Naturetour we are constantly adding to and improving our portfolio of wildlife holidays to provide you with an even greater choice of wildlife viewing experiences we are constantly adding to and improving.
+//-     .slide.img-responsive
+//-       +img('This is a picture of Banner', '../images/banner.png')
+//-       p.slide-caption At Naturetour we are constantly adding to and improving our portfolio of wildlife holidays to provide you with an even greater choice of wildlife viewing experiences we are constantly adding to and improving.
+//-   .slider-control
+//-     .prev
+//-     .next
+
+.carousel(data-slider="")
+  .inner
+    .slide.active
+      h1 1
+    .slide
+      h1 2
+    .slide
+      h1 3
+  .arrow.arrow-left
+  .arrow.arrow-right
+
+
+
+.row
+  .welcome-block
+    .col-md-9
+      .welcome-content
+        h1
+          | Welcome to our Web Site !
+        p
+          | Lorem Ipsum consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore Lorem ipsum dolor sit amet, conseter sadipscing elitr, sed diam ipsum dolor sit amet, conseter sadipscing elitr, sed diam Lorem Ipsum consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore Lorem ipsum dolor sit amet, conseter sadipscing elitr, sed diam ipsum dolor sit amet, conseter sadipscing elitr, sed diam invidunt ut labore Lorem ipsum dolor sit amet, conseter sadipscing elitr, sed diam ipsum dolor sit amet, conseter conseter sit...
+          +link('viewmore','#', 'View more').view-more-welcome
+    .col-md-3
+      .carousel(data-slider="")
+        .inner
+          .slide.active
+            h1 1
+          .slide
+            h1 2
+          .slide
+            h1 3
+        .arrow.arrow-left
+        .arrow.arrow-right
+
+      //- .slider-welcome
+      //-     +img('This is a picture of Welcome block', '../images/welcome-logo.png')
+      //-     +img('This is a picture of Welcome block', '../images/welcome-logo.png')
+      //-     +img('This is a picture of Welcome block', '../images/welcome-logo.png')
+      //-     +img('This is a picture of Welcome block', '../images/welcome-logo.png')
+.row
+  div.col-md-6
+    .news
+      .news-title news &amp; events
+        .view-more
+          +link('viewmore','#', 'View more')
+      .news-content
+        .news-content-box1
+          img(src="../images/event.png", alt="", class="news-content-img")
+          .news-content-text1
+            .news-content-head
+              .date
+                p.
+                  | 18.12.2013
+              p.
+                Consetetur sadipscing nonumy elitr...
+            .news-content-p
+              p.
+                Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore Consetetur sadipscing elitr,  diam nonumy eirmod tempor invidunt ut labore...
+        .news-content-box
+          .news-content-text
+            .news-content-head
+              .date
+                p.
+                  | 18.12.2013
+              p.
+                Consetetur sadipscing elitr Consetetur sadipscing elitr Consetetur...
+            .news-content-p
+              p.
+                Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore Consetetur sadipscing elitr,  diam nonumy eirmod tempor invidunt ut labore...
+        .news-content-box
+          .news-content-text
+            .news-content-head
+              .date
+                p.
+                  | 18.12.2013
+              p.
+                Consetetur sadipscing elitr Consetetur sadipscing elitr Consetetur....
+            .news-content-p
+              p.
+                Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore Consetetur sadipscing elitr,  diam nonumy eirmod tempor invidunt ut labore...
+
+
+  div.col-md-6
+    .partners
+      .news-title partners
+      .slider-partners-container
+        ul.slider-partners
+          li.slide-partners
+            img(src='../images/partners-silde.png')
+          li.slide-partners
+            img(src='../images/partners-silde.png')
+          li.slide-partners
+            img(src='../images/partners-silde.png')
+          li.slide-partners
+            img(src='../images/partners-silde.png')
+          li.slide-partners
+            img(src='../images/partners-silde.png')
+        .slider-control-partners
+          .prev
+          .next
+

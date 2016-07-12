@@ -1,0 +1,41 @@
+include ../mixins/all
+
+header
+  .row
+    div.logo-search
+      .logo-all.col-xs-4
+        a.logo(href="#", title="Home template")
+          img.logo-img(src="images/logo-2.png")
+          h1.page-title template demo
+      div.topbar.col-xs-4.col-xs-offset-4
+        div(class="search-group")
+          input(class="search-input", type="text", placeholder="Search")
+          input(class="search-btn", type="submit", title="search", value="")
+
+        div(class="lang")
+            a(href="#", title="flag")
+              img(src="images/flag-vn.png", alt="")
+            a(href="#", title="flag")
+              img(src="images/flag-em.png", alt="")
+            a(href="#", title="flag")
+              img(src="images/flag-fr.png", alt="")
+
+  .row
+    nav
+      ul
+        li
+          +link('About us','#', 'About us')
+        li
+          +link('Services','#', 'Services')
+        li
+          +link('News & Events','#', 'News &amp Events')
+        li
+          +link('Gallery','#', 'Gallery')
+        li
+          +link('Contact Us','#', 'Contact Us')
+        li
+          +link('FAQs','#', 'FAQs')
+
+
+
+
